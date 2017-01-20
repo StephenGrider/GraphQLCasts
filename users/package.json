@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server": "json-server --watch db.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.15.3",
     "express": "^4.14.0",
     "express-graphql": "^0.6.1",
     "graphql": "^0.8.2",
+    "json-server": "^0.9.4",
     "lodash": "^4.17.4"
   }
 }
