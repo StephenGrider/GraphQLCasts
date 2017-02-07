@@ -1,0 +1,41 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "Starter pack for an auth-included graphql project",
+  "repository": {
+    "type": "git",
+    "url": "github.com/stephengrider"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --ignore client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-client": "^0.8.2",
+    "axios": "^0.15.3",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-react": "^6.22.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.16.0",
+    "connect-mongo": "^1.3.2",
+    "express": "^4.14.0",
+    "express-graphql": "^0.6.1",
+    "express-session": "^1.15.0",
+    "graphql": "^0.8.2",
+    "graphql-tag": "^1.2.4",
+    "html-webpack-plugin": "^2.26.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.7.8",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "react": "^15.4.2",
+    "react-apollo": "^0.10.0",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.0",
+    "webpack-dev-middleware": "^1.9.0"
+  }
+}
