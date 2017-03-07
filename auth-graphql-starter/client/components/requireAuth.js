@@ -5,8 +5,8 @@ import { hashHistory } from 'react-router';
 
 export default (WrappedComponent) => {
   class RequireAuth extends Component {
-    componentDidMount() {
-      if (!this.props.data.loading && !this.props.data.user) {
+    componentWillUpdate(nextProps) {
+      if (!nextProps.data.loading && !nextProps.data.user) {
         hashHistory.push('/login');
       }
     }
