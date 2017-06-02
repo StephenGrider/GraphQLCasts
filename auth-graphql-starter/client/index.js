@@ -4,7 +4,7 @@ import ApolloClient, { createNetworkInterface } from 'apollo-client';
 import { ApolloProvider } from 'react-apollo';
 import { Router, hashHistory, Route, IndexRoute } from 'react-router';
 
-import App from './components/app';
+import App from './components/App';
 import LoginForm from './components/LoginForm';
 import SignupForm from './components/SignupForm';
 import Dashboard from './components/Dashboard';
